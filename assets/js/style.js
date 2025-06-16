@@ -10,12 +10,12 @@ console.table(array);
 console.log(array.length);
 const array2 = [...array];
 for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {
+    if (i % 2 === 0) {
         console.log(array[i]);
     }
 }
 let multiply = 1;
-for (let i = 1; i < array.length; i++) {
+for (let i = 0; i < array.length; i++) {
     multiply *= array[i];
 }
 console.log(multiply);
